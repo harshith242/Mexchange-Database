@@ -29,7 +29,7 @@ public class ContactActivity extends AppCompatActivity {
         String userid_txt=intent.getExtras().getString("userid");
         name.setText(name_txt);
         userid.setText(userid_txt);
-        mobile.setText("+91-"+mobile_txt);
+        mobile.setText(mobile_txt);
         request = (Button)findViewById(R.id.request);
         request.setOnClickListener(new View.OnClickListener() {
             @Override
